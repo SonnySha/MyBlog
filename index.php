@@ -1,7 +1,8 @@
 <?php
-    
+    /*
     var_dump($_GET);
     var_dump($_POST);
+    */
     require_once('controller/controllerPosts.php');
     require_once('controller/controllerComments.php');
     

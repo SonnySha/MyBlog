@@ -1,5 +1,6 @@
+<!--Gére l'affichage d'un post-->
 <?php ob_start(); ?>
-
+   <!-- Pas d'image dans le header-->
 <?php $pictures = ob_get_clean(); ?>
 
 <?php ob_start(); ?>
@@ -110,7 +111,7 @@ $title = "Post : " . $infoPost['title'];
 
 
         </ul>
-
+<!--Poster un commentaire-->
         <form action="addComment/<?= $infoPost['id'] ?>" method="post" class="form-horizontal ">
             <fieldset class="jumbotron col-md-12 col-sm-12 col-xs-12 text-center">
 

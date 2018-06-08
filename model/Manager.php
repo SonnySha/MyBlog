@@ -1,5 +1,10 @@
 <?php
     
+/**
+ * Class Manager
+ *
+ * Gère la connexion à la base de données.
+ */
 class Manager {
     
     protected function dbConnect() {
