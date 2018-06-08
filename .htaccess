@@ -1,0 +1,19 @@
+Options -Indexes
+Options -Multiviews
+Options +FollowSymLinks
+SetEnv REGISTER_GLOBALS 0
+SetEnv PHP_VER 5
+
+RewriteEngine On
+
+RewriteRule ^allPosts$ index.php?action=allPosts
+
+RewriteRule ^hashtag/([a-z\-A-Z0-9]+)$ index.php?action=hashtag&value=$1
+
+RewriteRule ^post/([0-9]+)$ index.php?action=post&id=$1
+
+
+RewriteRule ^addComment/([0-9]+)$ index.php?action=addComment&id=$1
+
+
+

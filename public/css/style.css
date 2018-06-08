@@ -1,0 +1,292 @@
+
+body {
+    padding-top: 15px;
+    background: url(../picture/tweed.png);
+}
+
+section h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+#pictures-drawing img {
+    padding: 0px;
+    width: 100%;
+    
+    border: 3px solid #2f2c2c;
+    border-radius: 25px;
+    
+    box-shadow: 0px 0px 10px 2px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 0px 10px 2px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 0px 10px 2px rgba(119, 119, 119, 0.75);
+
+}
+
+#pict1 {
+    margin-top: 25px;
+}
+
+#pict2 {
+    margin-top: -25px;
+}
+
+#pict3 {
+    margin-top: 35px;
+}
+
+section h1{
+    margin-top: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+section h1{
+    font-size: 2.8em;
+    color: #DDBC95;
+}
+
+.row img{
+    width: 100%;
+}
+
+#pictures-drawing {
+    margin-top: 55px;
+}
+
+
+
+
+.jumbotron h2 {
+    font-family: 'Lato', sans-serif;
+    color: #D5D5D5;
+}
+
+.jumbotron ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    list-style-type: none;
+}
+
+.post ul li {
+    margin-right: 10px;
+    padding: 5px;
+    
+    font-size: 1.2em;
+    
+    border: 1px solid white;
+    border-radius: 5px;
+    
+    background-color: #DDBC95E6;
+    
+
+}
+
+li a {
+    color: white;
+   
+}
+
+.btn {
+     font-weight: bold;
+}
+
+.container .jumbotron {
+    
+    padding:10px 0px;
+    
+    color: #D5D5D5;
+    border: 2px solid white;
+    
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+    
+}
+
+.jumbotron p {
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 35px;
+    word-wrap: break-word;
+}
+
+.jumbotron .datePost {
+    font-size: 1em;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+.elementPost1 {
+    background-color: #6D7993cc;
+}
+
+.elementPost2 {
+     background-color: #B56357cc;
+}
+
+.elementPost3 {
+     background-color: #626E60cc;
+}
+
+
+#listPost {
+    list-style-type: none;
+}
+
+.jumbotron .PostFooter {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #110c0c80;
+}
+
+#listPost li .post {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.jumbotron .imgPost {
+    margin-top: 20%;
+}
+
+.jumbotron .pImg{
+    padding: 0px;
+}
+
+
+
+#illustrationPost {
+   
+    
+    
+    height: 450px;
+    width: 100%;
+    
+    padding: 0px;
+    
+
+    z-index: 0;
+}
+
+#titlePost {
+    background-color: #0009;
+    color: white;
+    
+    padding: 10px;
+    margin-top: 0px;
+    
+    border-radius: 5px;
+    border: 2px #474747 solid;
+    
+    font-size: 2.5em;
+    
+    
+    
+}
+
+#post {
+    
+   
+}
+
+#postView {
+    
+    padding: 0px;
+    
+   
+}
+
+
+
+#divHastagPost {
+   
+    z-index: 2;
+}
+
+#divTitleImgHashtag {
+
+    
+    padding: 0px;
+}
+
+.listHastagPost {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    
+    
+    
+}
+
+#articlePost {
+    color: white;
+}
+
+#articlePost h2 {
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    
+    padding-bottom: 15px;
+}
+
+.hastagPost {
+    
+    padding: 10px;
+    margin-bottom: 0px;
+    
+    background-color: #0009;
+    
+    position: absolute;
+    bottom: 0;
+}
+
+
+#sectionComment h3 {
+    color: white;
+    padding-top: 15px;
+    margin: 10px;
+    margin-top: 25px;
+    border-top: 2px gray solid;
+}
+
+#commentsList .jumbotron {
+    background-color: dimgray;
+    color: white;
+}
+
+#commentsList .comment-date {
+    margin-bottom: 0px;
+}
+
+#commentsList {
+    margin-top: 15px;
+}
+
+section form {
+    margin-left: 25px;
+    margin-right: 25px; 
+}
+
+form label {
+    color: #333;
+}
+
+form button {
+    margin-right: 15px;
+}
+
+#commentsList h4 {
+    
+    border-right: 2px solid gray;
+}
+
+#paraPost {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}

@@ -1,0 +1,67 @@
+.jumbotron .imgPost {
+    margin-top: 0px;
+}
+
+.jumbotron .PostFooter {
+    margin-top: 0px;
+}
+
+.jumbotron .contentPost {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.jumbotron .datePost {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 0px;
+}
+
+.jumbotron .contentPost {
+    padding: 0px;
+}
+
+.listHastagPost li {
+    margin-top: 5px;
+}
+
+.jumbotron .listHastagPost {
+    padding: 0px;
+}
+
+#listPost {
+    padding: 0px;
+}
+
+.jumbotron h2 {
+    margin-top: 0px;
+}
+
+#pictures-drawing {
+    padding: 0px;
+
+}
+
+#date-post {
+    padding: 0px;
+    margin: 0px;
+}
+
+#divTitleImgHashtag {
+    margin-bottom: 15px;
+}
+
+#postView h3 {
+    margin-top: 75px;
+}
+
+#commentsList h4 {
+    padding-bottom: 5px;
+    
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+#paraContentPost {
+    padding: 0px;
+}
